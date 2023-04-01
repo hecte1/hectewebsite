@@ -1,0 +1,133 @@
+.name {
+    font-family: Papyrus, fantasy;
+    font-size: 3rem;
+
+
+
+}
+
+a {
+    color: black;
+}
+
+body {
+    height: 10vh;
+    background-image: url(./images/big-ocean-wave-under-blue-sky.jpg);
+    background-size: cover;
+
+}
+
+.links {
+    float: right;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: Papyrus, fantasy;
+    word-spacing: 50%;
+    text-underline-offset: none;
+    margin-bottom: 40%;
+
+}
+
+
+.active {
+    text-decoration: none;
+
+}
+
+main {
+    font-family: Papyrus, fantasy;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+
+.quote {
+    font-family: Papyrus, fantasy;
+    font-weight: 100;
+    color: rgb(10, 10, 10);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2em;
+    position: absolute;
+    margin-left: 9%;
+
+}
+
+.main2 {
+    font-family: Papyrus, fantasy;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 5%;
+
+}
+
+/* 
+#surfme {
+    width: 300px;
+    height: 175px;
+    padding-top: 125px;
+    position: absolute;
+
+} */
+/* 
+.img-about {
+    width: 300px;
+    height: 175px;
+    padding-top: 125px;
+    position: absolute;
+}
+
+#paddle {
+    width: 300px;
+    height: 175px;
+    padding-top: 125px;
+    position: absolute;
+    padding-left: 323px; */
+
+
+
+/* #skate {
+    width: 300px;
+    height: 175px;
+    padding-top: 125px;
+    position: absolute;
+    padding-left: 645px;
+
+}
+
+#bike {
+    width: 300px;
+    height: 175px;
+    padding-top: 125px;
+    position: absolute;
+    padding-left: 965px;
+
+} */
+.wrapimages {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+
+
+
+
+
+    gap: 10px;
+
+
+
+
+
+}
+
+img {
+    width: 200px;
+    height: 160px;
+
+
+
+
+
+}
