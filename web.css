@@ -1,10 +1,12 @@
 .name {
     font-family: Papyrus, fantasy;
     font-size: 3rem;
-
-
-
 }
+
+* {
+    box-sizing: border-box;
+}
+
 
 a {
     color: black;
@@ -22,9 +24,9 @@ body {
     box-sizing: border-box;
     font-size: 2rem;
     font-family: Papyrus, fantasy;
-    word-spacing: 50%;
+    word-spacing: 20%;
     text-underline-offset: none;
-    margin-bottom: 40%;
+
 
 }
 
@@ -61,73 +63,48 @@ main {
 
 }
 
-/* 
-#surfme {
-    width: 300px;
-    height: 175px;
-    padding-top: 125px;
-    position: absolute;
 
-} */
-/* 
-.img-about {
-    width: 300px;
-    height: 175px;
-    padding-top: 125px;
-    position: absolute;
-}
-
-#paddle {
-    width: 300px;
-    height: 175px;
-    padding-top: 125px;
-    position: absolute;
-    padding-left: 323px; */
-
-
-
-/* #skate {
-    width: 300px;
-    height: 175px;
-    padding-top: 125px;
-    position: absolute;
-    padding-left: 645px;
-
-}
-
-#bike {
-    width: 300px;
-    height: 175px;
-    padding-top: 125px;
-    position: absolute;
-    padding-left: 965px;
-
-} */
 .wrapimages {
     flex-direction: row;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     margin-top: 150px;
-
-
-
-
-
     gap: 10px;
+}
 
-
-
-
-
+.wrapimages2 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    size: 200 dvi;
 }
 
 img {
     width: 200px;
     height: 160px;
+    border: 3px solid blue;
+
+}
+
+#pictitle {
+    word-spacing: 45px;
+    letter-spacing: -1px;
+    font-family: Papyrus, fantasy;
+}
 
 
+#pictitle2 {
+    word-spacing: 200px;
+    letter-spacing: -2px;
+    font-family: Papyrus, fantasy;
 
 
+}
 
+p {
+    font-family: Papyrus, fantasy;
+    font-size: 1rem;
+    text-align: left;
 }
